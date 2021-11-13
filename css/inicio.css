@@ -32,11 +32,12 @@ header{
     background-color: #fff;
     border-radius: 20px;
     width: 100%;
+    position: relative;
 }
 .search-text{
     border: none;
     background-color: transparent;
-    width: auto;
+    width: 100%;
 }
 .search-btn{
     background-color: transparent;
@@ -53,6 +54,9 @@ header{
 }
 .h80{
     height: 80px;
+}
+.m-x-5{
+    margin: 0 5%;
 }
 .logo{
     display: flex;
@@ -85,4 +89,16 @@ footer{
     color: #fff;
     font-family: 'Waiting for the Sunrise', cursive;
     align-items: center;
+}
+section{
+    padding: 20px 0;
+}
+.section-full{
+    padding: 0;
+}
+.product-img{
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
 }
