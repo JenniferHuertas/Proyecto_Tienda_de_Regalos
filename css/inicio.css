@@ -58,6 +58,9 @@ header{
 .m-x-5{
     margin: 0 5%;
 }
+.text{
+    font-family: Roboto, "Helvetica Neue";
+}
 .logo{
     display: flex;
     align-items: center;
