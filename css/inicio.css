@@ -1,5 +1,15 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #dfdfdf;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
 header{
     background-color: #ebafb4;
+    height: fit-content;
 }
 .header{
     height: 80px;
@@ -83,6 +93,8 @@ h1{
 }
 footer{
     background-color: #273654;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 .footer{
     height: 40px;
@@ -113,7 +125,8 @@ a{
 .card{
     flex-direction: row;
     padding: 0 10px;
-    width: 80%;
+    width: 90%;
+    border-radius: 10px;
 }
 .card-img{
     width: 135px;
