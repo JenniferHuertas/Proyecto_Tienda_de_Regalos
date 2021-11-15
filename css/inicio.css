@@ -142,7 +142,25 @@ a{
     display: flex;
     justify-content: space-between;
 }
-
+.fecha-container{
+    width: 85%;
+    margin: auto;
+}
+.fecha{
+    background-color: #495876;
+    border-radius: 20px;
+    padding: 40px 10px 40px 10px;
+}
+.input-fecha{
+    width: 70%;
+    margin: 10px auto;
+    height: 30px;
+    border-radius: 8px;
+}
+select{
+    border-right-width: 18px;
+    border-right-color: white;
+}
 /*ADDITIONAL STYLING*/
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button {  
