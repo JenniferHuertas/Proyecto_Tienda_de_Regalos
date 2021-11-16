@@ -154,12 +154,15 @@ a{
 .input-fecha{
     width: 60%;
     margin: 10px auto;
-    height: 30px;
+    height: 35px;
     border-radius: 8px;
 }
 select{
     border-right-width: 18px;
     border-right-color: white;
+}
+.form-control{
+    margin: 9px 0;
 }
 /*ADDITIONAL STYLING*/
 input[type=number]::-webkit-inner-spin-button, 
