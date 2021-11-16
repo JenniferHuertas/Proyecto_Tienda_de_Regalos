@@ -88,8 +88,8 @@
               MAIN
   *************************************
   -->
-  <main>
-    <div class="container-fluid">
+  <main class="background-order">
+    <div class="container-fluid mt-5">
       <div class="m-x-5">
         <div class="row">
           <div class="col-6">
@@ -97,7 +97,7 @@
                 
                 <div class="form-group">
                     <label for="info">Informacion de contacto</label>
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Correo electronico">
+                    <input type="email" class="form-control my-2" id="inputEmail" placeholder="Correo electronico">
                 </div>
                 <div class="row">
                     <a href="#" class="text-end">Ya tienes una cuenta? Iniciar sesion</a>
@@ -106,56 +106,130 @@
                   <label for="inputAddress">Direccion de envio</label>
                   <div class="row">
                       <div class="col">
-                          <input type="text" class="form-control" id="firstname" placeholder="Nombre">
+                          <input type="text" class="form-control my-2" id="firstname" placeholder="Nombre">
                       </div>
                       <div class="col">
-                          <input type="text" class="form-control" id="lastname" placeholder="Apellido">
+                          <input type="text" class="form-control my-2" id="lastname" placeholder="Apellido">
                       </div>
                   </div>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="N˚RUC si necesita factura">
-                  <input type="text" class="form-control" id="inputAddress" placeholder="Direccion de envio de la persona que recibe el detalle">
-                  <input type="text" class="form-control" id="inputAddress" placeholder="Telefono y referencia de la persona que recibe el detalle">
-                  <input type="text" class="form-control" id="inputAddress" placeholder="Tu numero de DNI o CE">
+                  <input type="text" class="form-control my-2" id="inputAddress" placeholder="N˚RUC si necesita factura">
+                  <input type="text" class="form-control my-2" id="inputAddress" placeholder="Direccion de envio de la persona que recibe el detalle">
+                  <input type="text" class="form-control my-2" id="inputAddress" placeholder="Telefono y referencia de la persona que recibe el detalle">
+                  <input type="text" class="form-control my-2" id="inputAddress" placeholder="Tu numero de DNI o CE">
 
                   <div class="row">
                     <div class="form-group col-md-4">
-                      <input type="text" class="form-control" id="pais" placeholder="Pais">
+                      <input type="text" class="form-control my-2" id="pais" placeholder="Pais">
                     </div>
                     <div class="form-group col-md-4">
-                        <input type="text" class="form-control" id="pais" placeholder="Departamento">
+                        <input type="text" class="form-control my-2" id="pais" placeholder="Departamento">
                     </div>
                     <div class="form-group col-md-4">
-                        <input type="text" class="form-control" id="pais" placeholder="Distrito">
+                        <input type="text" class="form-control my-2" id="pais" placeholder="Distrito">
                     </div>
                   </div>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="Tu numero de Telefono">
+                  <input type="text" class="form-control my-2" id="inputAddress" placeholder="Tu numero de Telefono">
                 </div>
               </form>
           </div>
+          <div class="col-1">
+              
+          </div>
           <div class="col-5">
-            <div class="fecha-container">
-              <div class="row fecha mt-2">
-                <h4 class="text-center text-white">Elige una fecha de entrega</h4>
-                <input type="date" name="Fecha" id="fechaId" class="input-fecha form-control">
-                <select name="Horario" id="horarioId" class="input-fecha">
-                  <option value="0" disabled selected>Elige un horario</option>
-                  <option value="1">De 9am a 1pm</option>
-                  <option value="2">De 3pm a 7pm</option>
-                  <option value="3">Todo el dia</option>
-                </select>
-              </div>
-              <div class="row mt-4 ">
-                <p class="mb-1">Deja un mensaje especial para agregarlo a tu pedido</p>
-              </div>
-              <div class="row mt-0">
-                <textarea id="mensajeId" name="mensajeEspecial" style="border-radius: 10px; padding: 10px;" rows="7"
-                  cols="50" placeholder="Muchas felicidades en este dia tan especial!"></textarea>
-              </div>
-              <div class="row my-4">
-                <div class="card-number-button p-0">
-                  <a href="#" class="btn btn-danger w-100 m-0">Continuar con el pedido</a>
+              <div class="row text-start text-white">Orden de compra</div>
+            <div class="row my-2 orden-compra">
+                <div class="card order-card">
+                  <img class="card-img-top card-img-order" src="../imagenes/Regalo11.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">DESAYUNO "PRINCESS"</h5>
+                    <div class="row">
+                        <div class="col">
+                            <p class="card-text text-start my-1">x1</p>
+                        </div>
+                        <div class="col">
+                            <p class="card-text text-end my-1">S./ 199.00</p>
+                        </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+            </div>
+            <div class="row my-2 orden-compra">
+                <div class="card order-card">
+                  <img class="card-img-top card-img-order" src="../imagenes/Regalo11.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">DESAYUNO "PRINCESS"</h5>
+                    <div class="row">
+                        <div class="col">
+                            <p class="card-text text-start my-1">x1</p>
+                        </div>
+                        <div class="col">
+                            <p class="card-text text-end my-1">S./ 199.00</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row my-2 orden-compra">
+                <div class="card order-card">
+                  <img class="card-img-top card-img-order" src="../imagenes/Regalo11.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">DESAYUNO "PRINCESS"</h5>
+                    <div class="row">
+                        <div class="col">
+                            <p class="card-text text-start my-1">x1</p>
+                        </div>
+                        <div class="col">
+                            <p class="card-text text-end my-1">S./ 199.00</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row my-2 orden-compra">
+                <div class="card order-card">
+                  <img class="card-img-top card-img-order" src="../imagenes/Regalo11.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">DESAYUNO "PRINCESS"</h5>
+                    <div class="row">
+                        <div class="col">
+                            <p class="card-text text-start my-1">x1</p>
+                        </div>
+                        <div class="col">
+                            <p class="card-text text-end my-1">S./ 199.00</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="card-text text-white text-start my-3">Subtotal</p>
+                </div>
+                <div class="col">
+                    <p class="card-text text-white text-end my-3">S./ 924.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <hr style="border: 1px solid #fff;">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2 class="card-text text-white text-start my-2">Total</h2>
+                </div>
+                <div class="col">
+                    <h2 class="card-text text-white text-end my-2">S./ 924.00</h2>
+                </div>
+            </div>
+            <div class="row mt-3 mb-5">
+                <div class="col-7">
+                    <div class="card-number-button p-0">
+                        <a href="#" class="btn btn-danger w-100 m-0">Realizar pedido</a>
+                    </div>
+                </div>
+                <!-- <div class="col-0"></div> -->
+                <div class="col-5 align-justify">
+                    <a href="#" class="text-center">Volver al carrito</a>
+                </div>
             </div>
           </div>
         </div>

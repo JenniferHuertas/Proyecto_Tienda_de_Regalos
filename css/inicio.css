@@ -135,6 +135,14 @@ a{
     border-radius: 10px;
     align-self: center;
 }
+.card-img-order{
+    width: 120px;
+    height: 75px;
+    margin: 10px 5px;
+    object-fit: cover;
+    border-radius: 10px;
+    align-self: center;
+}
 .card-body{
     padding: 15px;
 }
@@ -161,8 +169,16 @@ select{
     border-right-width: 18px;
     border-right-color: white;
 }
-.form-control{
-    margin: 9px 0;
+.orden-compra{
+    justify-content: center;
+}
+.background-order{
+    background: linear-gradient(90deg, #dfdfdf 0%, #dfdfdf 53%, #495876 53%);
+}
+.align-justify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*ADDITIONAL STYLING*/
 input[type=number]::-webkit-inner-spin-button, 
