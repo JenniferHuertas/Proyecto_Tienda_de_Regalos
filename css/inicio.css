@@ -117,7 +117,7 @@ section{
     width: 100%;
     max-height: 180px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 a{
     text-decoration: none;
@@ -126,6 +126,11 @@ a{
     flex-direction: row;
     width: 90%;
     border-radius: 10px;
+}
+.card-normal{
+    flex-direction: column;
+    border-radius: 20px;
+    width: 100%;
 }
 .card-img{
     width: 150px;
