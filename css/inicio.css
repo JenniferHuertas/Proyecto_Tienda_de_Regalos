@@ -91,6 +91,15 @@ h1{
     font-family: Roboto, "Helvetica Neue";
     font-size: 12px;
 }
+
+.page-link {
+    background-color: #273654;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
 footer{
     background-color: #273654;
     grid-row-start: 3;
