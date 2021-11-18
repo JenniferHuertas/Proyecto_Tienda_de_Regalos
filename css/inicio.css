@@ -347,6 +347,27 @@ select{
 .activo{
     background-color: #666;
 }
+.detalle-img{
+    width: 100%;
+    max-height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.detalle-main-img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.detalle-container{
+    height: fit-content;
+}
+.detalle-box{
+    padding-left: 50px;
+}
+.detalle-main{
+    height: 400px;
+}
 /*ADDITIONAL STYLING*/
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button {  
