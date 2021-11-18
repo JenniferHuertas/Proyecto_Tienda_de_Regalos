@@ -131,10 +131,16 @@ section{
     border-radius: 20px 20px 0px 0px;
 }
 a{
+    color:#222;
     text-decoration: none;
 }
 a:hover{
     text-decoration: none;
+}
+.link:hover{
+    color: #fff;
+    border-radius: 22px;
+    background-color: #273654;
 }
 .w-20{
     width: 20%;
@@ -357,6 +363,7 @@ select{
     max-height: 120px;
     object-fit: cover;
     border-radius: 20px;
+    cursor: pointer;
 }
 .detalle-main-img{
     width: 100%;
@@ -372,6 +379,22 @@ select{
 }
 .detalle-main{
     height: 400px;
+}
+.link-carrito{
+    text-decoration: underline;
+    color: #FFA2FF;
+}
+.link-carrito:hover{
+    text-decoration: underline;
+    color: #FFf;
+}
+.link-cuenta{
+    text-decoration: underline;
+    color: #00f;
+}
+.link-cuenta:hover{
+    text-decoration: underline;
+    color: #273654;
 }
 /*ADDITIONAL STYLING*/
 input[type=number]::-webkit-inner-spin-button, 
