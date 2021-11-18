@@ -29,6 +29,7 @@ header{
 .icon-f{
     font-size: 18px;
     margin-left: 12px;
+    cursor: pointer;
 }
 .nav-item:hover{
     background-color: #273654;
